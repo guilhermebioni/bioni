@@ -1,0 +1,29 @@
+{
+	"name": "resultadobase",
+	"properties": {
+		"description": "teste",
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "matches-2003-2024.txt",
+				"container": "bronze"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "#UNUSED;DATE;HOUR;HOME-TEAM;SCORE;AWAY-TEAM",
+				"type": "String"
+			}
+		]
+	}
+}
