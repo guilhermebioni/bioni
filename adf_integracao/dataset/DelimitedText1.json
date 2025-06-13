@@ -13,14 +13,34 @@
 				"fileName": "matches-2003-2024.txt",
 				"container": "bronze"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": [
 			{
-				"name": "#UNUSED;DATE;HOUR;HOME-TEAM;SCORE;AWAY-TEAM",
+				"name": "#UNUSED",
+				"type": "String"
+			},
+			{
+				"name": "DATE",
+				"type": "String"
+			},
+			{
+				"name": "HOUR",
+				"type": "String"
+			},
+			{
+				"name": "HOME-TEAM",
+				"type": "String"
+			},
+			{
+				"name": "SCORE",
+				"type": "String"
+			},
+			{
+				"name": "AWAY-TEAM",
 				"type": "String"
 			}
 		]
