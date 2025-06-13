@@ -1,0 +1,9 @@
+{
+	"name": "datatestebioni",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1e3998b9-c536-450e-b5d5-d79f5000c43a",
+		"tenantId": "5379ea61-6099-41ad-a7b9-7205dee19c07"
+	}
+}
